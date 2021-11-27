@@ -3,7 +3,9 @@ guid: 4bbd0fbc73126824ead3e3f262b0dd39
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - customSkin: {fileID: 11400000, guid: 408c4c354ff1abb46b82d20debd6db83, type: 2}
+  - font: {fileID: 12800000, guid: 98b3213093742ee4ab048a89fe137266, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

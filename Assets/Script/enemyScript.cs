@@ -6,6 +6,7 @@ public class enemyScript : MonoBehaviour {
     public int speed = -5;
     public GameObject enemy;
     Rigidbody2D r2d;
+    public AudioSource audioGameOver    ;
     void Start() {
         
         //audioSource = GetComponent<AudioSource>();
@@ -36,6 +37,7 @@ public class enemyScript : MonoBehaviour {
             if(spaceship.life == 1) {
             }
             if(spaceship.life > 0) {
+                //audioGameOver.Play();
                 Destroy(gameObject);
                 spaceship.life--;
             }
