@@ -34,14 +34,16 @@ public class spawnScript : MonoBehaviour
             print("No font found, assign one in the inspector.");
         }
         GUI.skin.font = font;
-        GUI.skin.label.fontSize = (int)(Screen.width / 25.0f);
-        GUI.Label(new Rect(40, 40, 400, 400), "Vida(s): " + life);
-        GUI.Label(new Rect(40, 100, 400, 400), "Pontuação: " + score);
+        GUI.skin.label.fontSize = (int)(Screen.width / 20.0f);
+        GUI.Label(new Rect((Screen.width/2) - 300, 40, 400, 400), "Vida(s): " + life);
+        GUI.Label(new Rect((Screen.width/2) - 300, 100, 400, 400), "Pontuação: " + score);
+        GUI.skin.label.fontSize = (int)(Screen.width / 13.0f);
+        GUI.Label(new Rect((Screen.width/2) + 10, 30, 400, 400), "Space Ship");
         if(life == 0) {
             GUI.skin.label.fontSize = (int)(Screen.width / 9.0f);
             GUI.Label(new Rect((Screen.width/2) - 250, 500, 600, 600), "Fim de Jogo");
             GUI.skin.label.fontSize = (int)(Screen.width / 10.0f);
-            GUI.Label(new Rect((Screen.width/2) - 40, 400, 400, 400), score+"");
+            GUI.Label(new Rect((Screen.width/2) - 40, 400, 400, 400), score.ToString());
 
             box.DialogWindow(1);
         }
