@@ -3,7 +3,10 @@ guid: 92196c28cd3dbba4f94ab4d3a920c2fd
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - enemy: {instanceID: 0}
+  - font: {fileID: 12800000, guid: 98b3213093742ee4ab048a89fe137266, type: 3}
+  - box: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
