@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Gilvã Lopes e Isac Aguiar
+ * Space Ship
+ */
 public class spawnScript : MonoBehaviour
 {
     public GameObject enemy;
