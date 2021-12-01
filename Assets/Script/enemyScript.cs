@@ -1,3 +1,7 @@
+/**
+ * Gilvã Lopes e Isac Aguiar
+ * Space Ship
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,7 +10,7 @@ public class enemyScript : MonoBehaviour {
     public int speed = -5;
     public GameObject enemy;
     Rigidbody2D r2d;
-    public AudioSource audioGameOver    ;
+    public AudioSource audioGameOver;
     void Start() {
         
         //audioSource = GetComponent<AudioSource>();
